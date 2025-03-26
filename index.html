@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" description="Nicole Whittney">
+        <meta name="device" content="width=device_width, initial_scale=1">
+        <title> HTML5 IMAGES, LISTS, TABLES, FORMS AND INPUT TYPES</title>
+    </head>
+    <body>
+        
+        <header>
+            <h2><b>Lists</b></h2>
+        </header>
+        <section id="Lists" name="The different types of Lists">
+            <h3>Ordered List</h3>
+             <p>I have always wanted to travel around the world.I am sure that I'm not in this alone.I KNOW YOU HAVE THOUGHT ABOUT IT TOO.</p>
+             <ol>
+                <li>Egypt</li>
+                <li>United Arab Emirates</li>
+                <li>Germany</li>
+             </ol>
+             <h3>Unordered List</h3>
+             <p>I want to make sure that I do three actvities this year.The Activities are:</p>
+             <ul>
+                <li>Attend a dance class.</li>
+                <li>Enter singing auditions or just do karaoke at a public place.</li>
+                <li>Go for a hike with friends</li>
+             </ul>
+             <section id="Images" name="How to use images in HTML5">
+                <h2><b>Images</b></h2>
+                <img src="https://www.bing.com/images/search?view=detailV2&ccid=6b20L%2BFQ&id=59205CD94F683A9DDF97D639DF5BD4903FBBDAB4&thid=OIP.6b20L-FQdVmMaW3DAZgS-gHaE6&mediaurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F496112567%2Fphoto%2Fthe-bent-pyramid-at-dahshour.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DCB_Y9tBtv4bqh8F8Jv1hGHPKXaQ80-ZfmPE-vp3qx3A%3D&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.e9bdb42fe15075598c696dc3019812fa%3Frik%3DtNq7P5DUW9851g%26pid%3DImgRaw%26r%3D0&exph=406&expw=612&q=pexels.com+image+of+egypt&simid=608007863676901052&form=IRPRST&ck=EB3EBD4AF2072AB745F8912D512E96D5&selectedindex=4&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0&cit=ccid_S0bVr%2FpV*cp_EDFF363569A20CC366091C14275E31E7*mid_C8B89A550CA2DECFC8BDC25F7C7005E65E97CB65*simid_608038718709709184*thid_OIP.S0bVr!_pVFxFODMuvp2rwXQHaLM&vt=2" alt="Pyramids that I will see when I travel to Egypt"width="200" height="200">
+                <img src="https://www.bing.com/images/search?view=detailV2&ccid=aQIyTKeU&id=F8C7F43C34E60C40C38C4270DF5D77E7EE73AE0C&thid=OIP.aQIyTKeUO_spzz7zj9SToAHaFj&mediaurl=https%3a%2f%2fmonkeysandmountains.com%2fwp-content%2fuploads%2f2023%2f01%2ffriends-hiking-on-trails.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.6902324ca7943bfb29cf3ef38fd493a0%3frik%3dDK5z7ud3Xd9wQg%26pid%3dImgRaw%26r%3d0&exph=600&expw=800&q=hike+wityh+friends&simid=608013537331987272&FORM=IRPRST&ck=7F914998CEBB5E7F95CBAFC1AF1EB74F&selectedIndex=6&itb=0" alt="Going for a hike with friends seems fun.">
+             </section>
+         </section>
+
+         <section id="Tables" name="How to create a table using HTML5">
+            <h2>Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>President</th>
+                        <th>Language</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Egypt</td>
+                        <td>Abdel Fattah el-Sisi</td>
+                        <td>Arabic</td>
+                    </tr>
+                    <tr>
+                        <td>United Arab Emirates</td>
+                        <td>Sheikh Mohammed bin Rashid Al Maktoum</td>
+                        <td>Arabic</td>
+                    </tr>
+                    <tr>
+                        <td>Germany</td>
+                        <td> Frank-Walter Steinmeier</td>
+                        <td>German</td>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Country</td>
+                        <td>President</td>
+                        <td>Language</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section id="Form" name="Creation of Forms using HTML5">
+            <form method="post" action="">
+                <h2><b>REGISTRATION FORM</b></h2>
+            <fieldset>
+                <legend>Personal Information</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="Name" name="name" placeholder="Enter your name" required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email" required>
+            <label for="Country">Choose your country</label>
+                <select name="Country" id="Country">
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzania">Tanzania</option>
+                </select>
+                <p>Gender</p>
+                <input type="radio" id="female" name="Gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+
+                <input type="checkbox" id="Email checkbox" name="checkbox1" value="value1">
+                <label for="Email Checkbox">Notify me by email</label><br>
+
+
+                <button type="submit">Submit</button>
+            </fieldset>
+    </body>
+    <footer>
+        <p>Feel free to contact me:</p>
+        <p>Contact number:0714730894</p>
+        <p>Email:<a href="mailto:nicolewhittney3@gmail.com">nicolewhittney3@gmail.com</a></p>
+    </footer>
+</html>
